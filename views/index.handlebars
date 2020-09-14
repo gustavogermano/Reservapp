@@ -1,0 +1,24 @@
+<div class="jumbotron">
+  <h1 class="display-4">Bienvenue à Réservapp</h1>
+  <p class="lead">Trouvez le restaurant de votre choix et réservez votre table rapidement et facilement.</p>
+  <hr class="my-4">
+  <a class="btn btn-primary btn-lg" href="#" role="button">Créer un compte</a>
+  <p>développé par Gustavo Germano</p>
+</div>
+
+<h1>Restaurants:</h1>
+
+{{#each restaurantes}}
+<div class="card mt-4">
+    <div class="card-body">
+        <h3>{{nome}}</h3>
+        <p>{{descricao}}</p>
+        <button type="button" class="btn btn-sm btn-primary" disabled>{{vaga}} les tables</button><br><br>
+        <a href="/restaurante/{{slug}}"><button class = "btn btn-lg btn-success">Réserver</button></a>
+        
+        
+    </div>
+</div>
+{{else}}
+    <h5>Nenhum restaurante!</h5>
+{{/each}}

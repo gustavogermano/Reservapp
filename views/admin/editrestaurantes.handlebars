@@ -1,0 +1,35 @@
+{{#each erros}}
+    <div class="alert alert-danger">{{texto}}</div>
+{{else}}
+
+{{/each}}
+<h3>Editar restaurante:</h3>
+<div class="card">
+    <div class="card-body">
+        <form action="/admin/restaurantes/edit" method="POST">
+            <input type="hidden" name="id" value="{{restaurante._id}}">
+            <label for="nome">Nom: </label>
+                <input type="text" id="nome" name="nome" placeholder="Nome do restaurante..." class="form-control" value = "{{restaurante.nome}}" required>
+            <label for="slug">Slug: </label>
+                <input type="text" id="slug" name="slug" placeholder="Slug do restaurante..." class="form-control" value = "{{restaurante.slug}}" required>
+            <label for="descricao">La description: </label>
+               <textarea name="descricao" id="descricao" class="form-control" required>{{restaurante.descricao}}</textarea>
+            <label for="contato">Contact: </label>
+                <input type="text" id="contato" name="contato" placeholder="Contato..." class="form-control" value = "{{restaurante.contato}}" required>
+             <label for="endereco">Adresse: </label>
+                <input type="text" id="endereco" name="endereco" placeholder="Endereço do restaurante" class="form-control" value = "{{restaurante.endereco}}" required>
+            <label for="vaga">Réservations: </label>
+                <input type="text" id="vaga" name="vaga" placeholder="Número de mesas..." class="form-control" value = "{{restaurante.vaga}}" required>
+            <label for="categoria">Catégories:</label>
+            <select name="categoria" class="custom-select" value = "{{restaurante.categoria}}" required> 
+                {{#each categorias}}
+                <option  value="{{_id}}">{{nome}}</option>
+                {{else}}
+                <option  value="0">Aucune catégorie enregistrée</option>
+                {{/each}}
+            </select>
+            <br>
+            <button type="submit" class="btn btn-success">Confirmar</button>
+        </form>
+    </div>
+</div>
