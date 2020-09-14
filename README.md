@@ -11,3 +11,5 @@ Réservapp est une application de réservation de tables, dans laquelle il est p
 
 ### Login
 ![Login](https://user-images.githubusercontent.com/52551934/93148551-7b427100-f6ca-11ea-95dd-afe67f0d1639.jpg)
+
+### Noveau restaurant en tant admin
