@@ -19,7 +19,7 @@ Node JS + Express + MongoDb
 ![Admin restaurantes](https://user-images.githubusercontent.com/52551934/93236137-d6b94100-f754-11ea-8f49-8ba182e8291a.jpg)
 
 ### Admin catégories
-![Admin categories](https://user-images.githubusercontent.com/52551934/93236285-036d5880-f755-11ea-8473-a085a1cd7b63.jpg)
+![Admin categories](https://user-images.githubusercontent.com/52551934/93236916-c81f5980-f755-11ea-8942-1eae77fa7324.jpg)
 
 ### Nouveau restaurant en tant admin
 ![nouveau restaurant 2](https://user-images.githubusercontent.com/52551934/93148893-687c6c00-f6cb-11ea-96a7-cef999f010b7.jpg)
