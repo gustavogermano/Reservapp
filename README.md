@@ -28,16 +28,16 @@ Node JS + Express + MongoDb
 ![nouvelle categorie](https://user-images.githubusercontent.com/52551934/93148991-9d88be80-f6cb-11ea-8bd8-e9b7680dfe34.jpg)
 
 ## Les fonctions
-Enregistrement de l'utilisateur
-S'identifier
-Se déconnecter
-Admin -> Créer, modifier et supprimer Catégories et Restaurants
-Liste des restaurants
-Liste des catégories
-las tables disponibles
+#### Enregistrement de l'utilisateur
+#### S'identifier
+#### Se déconnecter
+#### Admin -> Créer, modifier et supprimer Catégories et Restaurants
+#### Liste des restaurants
+#### Liste des catégories
+#### las tables disponibles
 
 ## En développement
-Itinéraire pour réserver la table de votre choix
-Profil
-chercher restaurants
-Organisation des tables par les restaurants
+#### Itinéraire pour réserver la table de votre choix
+#### Profil
+#### Chercher restaurants
+#### Organisation des tables par les restaurants
