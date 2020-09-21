@@ -27,6 +27,8 @@ Node JS + Express + MongoDb
 ### Nouvelle catégorie
 ![nouvelle categorie](https://user-images.githubusercontent.com/52551934/93148991-9d88be80-f6cb-11ea-8bd8-e9b7680dfe34.jpg)
 
+### Users caégories
+
 ## Les fonctions
 #### Enregistrement de l'utilisateur
 #### S'identifier
